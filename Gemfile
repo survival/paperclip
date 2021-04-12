@@ -2,6 +2,8 @@ source "https://rubygems.org"
 
 gemspec
 
+gem 'mimemagic', git: 'https://github.com/survival/mimemagic.git'
+
 gem 'sqlite3', '~> 1.3.8', :platforms => :ruby
 
 gem 'jruby-openssl', :platforms => :jruby
